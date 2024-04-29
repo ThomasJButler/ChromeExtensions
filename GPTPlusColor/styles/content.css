@@ -1,0 +1,22 @@
+/* Change the background color of the body */
+body {
+    background-color: #a21a1a;
+}
+
+/* Make all paragraphs have a blue color and a sans-serif font */
+p {
+    color: blue;
+    font-family: sans-serif;
+}
+
+/* Increase the font size and change the font weight of all h1 elements */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Add a border and padding to images */
+img {
+    border: 2px solid #ddd;
+    padding: 5px;
+}

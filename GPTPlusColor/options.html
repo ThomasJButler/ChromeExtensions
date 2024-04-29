@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT ColorPlus Options</title>
+    <link rel='stylesheet' src='styles/style.css'>
+    <link rel='stylesheet' src='styles/content.css'>
+    <head> 
+</head>
+<body>
+    <h1>Customize ChatGPT Interface</h1>
+    <div>
+        <label for="background-color">Background Color:</label>
+        <input type="color" id="background-color">
+    </div>
+    <div>
+        <label for="text-color">Text Color:</label>
+        <input type="color" id="text-color">
+    </div>
+    <div>
+        <label for="font-size">Font Size:</label>
+        <select id="font-size">
+            <option value="12px">Small</option>
+            <option value="16px" selected>Medium</option>
+            <option value="20px">Large</option>
+        </select>
+    </div>
+    <div>
+        <label for="font-style">Font Style:</label>
+        <select id="font-style">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
+    </div>
+    <div>
+        <button id="save">Save Preferences</button>
+    </div>
+    <div id="status"></div>
+    <script src="options.js"></script>
+    <script src="background.js"></script>
+    <script src="content.js"></script>
+</body>
+</html>
